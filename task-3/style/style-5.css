@@ -1,0 +1,52 @@
+*{
+      border: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.containersix{
+      height: 420px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      align-items: center;
+      text-align: center;
+}
+
+.upptxt-1{
+      padding-top: 130px;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 0.9em;
+      letter-spacing: -3px;
+      font-family: sans-serif;
+      color: hsl(0, 0%, 20%);
+      font-weight: 800;
+}
+
+.lowtxt-1{
+      margin-top:7px ;
+      font-style: italic;
+      font-size: 14px;
+      font-family: sans-serif;
+      color: hsl(0, 0%, 29%);
+}
+
+.quote{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: italic;
+      font-size: 20px;
+      letter-spacing: -2.2px;
+      color: hsl(0, 0%, 29%);
+      padding-top: 74px;
+      font-weight: lighter;
+}
+
+.quoter{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      letter-spacing: -2.2px;
+      color: hsl(0, 0%, 29%);
+      font-weight: lighter;
+      
+}

@@ -1,0 +1,56 @@
+*{
+      border: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.container-nine{
+      margin: 20px;
+      height: 300px;
+      background-color: #242424;
+}
+
+.gridlay{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:20px;
+  text-align: left;
+}
+
+.col{
+      height:300px ;
+}
+
+.heading{
+      font-size: 16px;
+      font-family: sans-serif;
+      color: hsl(0, 1%, 35%);
+      letter-spacing: -0.7px;
+      margin-top: 50px;
+      font-weight: 700;
+}
+
+.item{
+      margin-top: 26px;
+}
+
+.item li{
+      list-style: none;
+      color: white;
+      font-size: 14px;
+      font-family: sans-serif;
+      letter-spacing: -0.8px;
+      margin-bottom: 9px;
+}
+
+.col img{
+      margin-top: 50px;
+      margin-left: 70px;
+      height: 75px;
+      width: 75px;
+}
+
+
+
+
+

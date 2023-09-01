@@ -1,0 +1,104 @@
+*{
+      margin: 0;
+      border: 0;
+      box-sizing: border-box;
+}
+
+.maincontainer{
+      border-color: solid white;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: 600px;
+      
+      display: flex;
+}
+
+.left-box{
+
+      width: 50%;
+      margin-right: 10px;
+      
+}
+
+.right-box{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.heading1{
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 0.9em;
+      letter-spacing: -3px;
+      font-family: sans-serif;
+      color: hsl(0, 0%, 20%);
+}
+.subhead{
+      margin-top:7px ;
+      font-style: italic;
+      font-size: 14px;
+      font-family: sans-serif;
+      color: hsl(0, 0%, 29%);
+}
+
+.desc{
+      margin-top: 35px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: hsl(0, 0%, 36%);
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: 400;
+      letter-spacing: -0.5px;
+}
+
+.btn{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 15px 35px;
+      border: 2px solid black;
+      margin-top: 40px;
+      color: hsl(0, 0%, 36%);
+      transition: 0.2s;
+}
+
+.btn:hover{
+      background-color: grey;
+      color: white;
+      border: none;
+      z-index: -1;
+}
+
+.text-cont{
+      text-align: center;
+      margin-top: 25%;
+}
+
+.image-cont{
+      height: 600px;
+      background-position: center;
+}
+
+#creative-id{
+      background-image: url(../image/creative.jpeg);
+}
+
+#hip-id{
+      background-image: url(../image/hip.jpeg);
+}
+
+#creative-txt{
+      background-color: whitesmoke;
+}
+
+#hip-text{
+      background-color: whitesmoke;
+}
+
+#exist-id{
+      background-image: url(../image/things.jpeg);
+}
+
+#exist-txt{
+      background-color: whitesmoke;
+}
